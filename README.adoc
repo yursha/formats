@@ -1,6 +1,8 @@
-# epub to pdf
+:toc:
 
-```
+= epub to pdf
+
+----
 brew install --cask calibre
 /Applications/calibre.app/Contents/MacOS/ebook-convert file.epub file.pdf
-```
+----
