@@ -6,3 +6,9 @@
 brew install --cask calibre
 /Applications/calibre.app/Contents/MacOS/ebook-convert file.epub file.pdf
 ----
+
+= svg to ico
+
+----
+convert -density 256x256 -background transparent file.svg -define icon:auto-resize -colors 256 favicon.ico
+----
